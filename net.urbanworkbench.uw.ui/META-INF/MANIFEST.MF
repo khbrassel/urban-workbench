@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Urban Workbench UI
+Bundle-SymbolicName: net.urbanworkbench.uw.ui;singleton:=true
+Bundle-Version: 0.1.0.qualifier
+Bundle-Vendor: Kai-Holger Brassel
+Automatic-Module-Name: net.urbanworkbench.uw.ui
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Bundle-ActivationPolicy: lazy

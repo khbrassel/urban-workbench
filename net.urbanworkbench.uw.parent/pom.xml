@@ -1,0 +1,122 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>net.urbanworkbench</groupId>
+	<artifactId>net.urbanworkbench.uw.parent</artifactId>
+	<version>0.1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>Urban Workbench Parent</name>
+
+	<properties>
+		<tycho-version>2.7.0</tycho-version>
+	</properties>
+
+	<build>
+		<plugins>
+
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-maven-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<configuration>
+					<source>17</source>
+					<target>17</target>
+					<encoding>UTF-8</encoding>
+				</configuration>
+				<extensions>true</extensions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>target-platform-configuration</artifactId>
+				<version>${tycho-version}</version>
+				<configuration>
+					<executionEnvironment>org.eclipse.justj.openjdk.hotspot.jre.full-17</executionEnvironment>
+					<!--target>
+						<artifact>
+							<groupId>eu.insel</groupId>
+							<artifactId>eu.insel.target</artifactId>
+							<version>1.0.0-SNAPSHOT</version>
+						</artifact>
+					<target>
+
+					<resolveWithExecutionEnvironmentConstraints>false</resolveWithExecutionEnvironmentConstraints-->
+					<environments>
+					<!--
+						<environment>
+							<os>linux</os>
+							<ws>gtk</ws>
+							<arch>x86_64</arch>
+						</environment>
+						<environment>
+							<os>win32</os>
+							<ws>win32</ws>
+							<arch>x86_64</arch>
+						</environment>
+					-->
+						<environment>
+							<os>macosx</os>
+							<ws>cocoa</ws>
+							<arch>x86_64</arch>
+						</environment>
+					</environments>
+				</configuration>
+			</plugin>
+
+			<!--plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-surefire-plugin</artifactId> 
+				<version>3.9.1</version> 2.22.2 ? </plugin -->
+
+		</plugins>
+
+
+		<pluginManagement>
+			<plugins>
+
+				<!--plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-toolchains-plugin</artifactId> 
+					<version>1.1</version> <executions> <execution> <goals> <goal>toolchain</goal> 
+					</goals> </execution> </executions> <configuration> <toolchains> <jdk> <version>17</version> 
+					</jdk> </toolchains> </configuration> </plugin -->
+
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.10.0</version>
+					<configuration>
+						<source>17</source>
+						<target>17</target>
+						<encoding>UTF-8</encoding>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+
+	</build>
+
+	<repositories>
+		<repository>
+			<id>justj</id>
+			<url>https://download.eclipse.org/justj/jres/17/updates/release/17.0.2</url>
+			<layout>p2</layout>
+		</repository>
+		<repository>
+			<id>eclipse-2022-03</id>
+			<url>https://download.eclipse.org/releases/2022-03</url>
+			<layout>p2</layout>
+		</repository>
+		<repository>
+			<id>Indriya</id>
+			<url>https://transfer.hft-stuttgart.de/pages/neqmodplus/indriya-p2/repository</url>
+			<layout>p2</layout>
+		</repository>
+		<repository>
+			<id>CityUnits</id>
+			<url>https://transfer.hft-stuttgart.de/pages/neqmodplus/de.hft-stuttgart.cityunits/p2repo</url>
+			<layout>p2</layout>
+		</repository>
+	</repositories>
+
+	<modules>
+		<module>../net.urbanworkbench.uw.feature</module>
+		<module>../net.urbanworkbench.uw.ui</module>
+		<module>../net.urbanworkbench.uw.product</module>
+	</modules>
+</project>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="USWProduct"
+         name="USW"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="Urban Simulation Workbench"
+            application="org.eclipse.ui.ide.workbench">
+         <property
+               name="appName"
+               value="Urban Simulation Workbench">
+         </property>
+         <property
+               name="aboutImage"
+               value="icon_128x128.png">
+         </property>
+         <property
+               name="aboutText"
+               value="Kai-Holger Brassel, Hamburg, Germany">
+         </property>
+         <property
+               name="windowImages"
+               value="icon_16x16.png,icon_32x32.png,icon_128x128.png,icon_256x256.png">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

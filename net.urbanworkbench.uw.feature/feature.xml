@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="net.urbanworkbench.uw.feature"
+      label="UW Feature"
+      version="0.1.0.qualifier"
+      provider-name="Kai-Holger Brassel">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <requires>
+      <import feature="de.hftstuttgart.cityunits.feature" version="1.2.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.gmf.runtime.notation" version="1.13.0.202004160913"/>
+      <import feature="org.eclipse.sirius.properties.feature" version="7.0.0.202202231547"/>
+      <import feature="org.eclipse.sirius.runtime" version="7.0.0.202202231547"/>
+      <import feature="org.eclipse.sirius.runtime.ide.ui" version="7.0.0.202202231547"/>
+      <import feature="org.eclipse.sirius.runtime.aql" version="7.0.0.202202231547" match="perfect"/>
+   </requires>
+
+   <plugin
+         id="net.urbanworkbench.uw.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

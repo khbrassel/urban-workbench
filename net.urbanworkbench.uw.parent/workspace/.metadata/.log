@@ -1,0 +1,326 @@
+!SESSION 2022-04-16 18:33:17.025 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=de_DE
+Framework arguments:  -eclipse.keyring /var/folders/yt/grhvcpt161l_c5pqj31f1ssr0000gp/T/tycho2825425721254740212secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/yt/grhvcpt161l_c5pqj31f1ssr0000gp/T/tycho2825425721254740212secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2022-04-16 18:33:17.025
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2022-04-16 19:02:53.246 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=de_DE
+Framework arguments:  -eclipse.keyring /var/folders/yt/grhvcpt161l_c5pqj31f1ssr0000gp/T/tycho10030378469347487480secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/yt/grhvcpt161l_c5pqj31f1ssr0000gp/T/tycho10030378469347487480secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2022-04-16 19:02:53.246
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-16 19:03:05.286
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,net.urbanworkbench.uw.feature,0.1.0.202204161702.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-16 19:03:05.384
+!MESSAGE No digest algorithm is available to verify download of binary,net.urbanworkbench.uw.product.executable.cocoa.macosx.x86_64,0.1.0.202204161702.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-16 19:03:05.622
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,net.urbanworkbench.uw.ui,0.1.0.202204161702.
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-04-16 19:03:16.589
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:03:16.589
+!MESSAGE Add request for Eclipse Platform 4.23.0.v20220308-0722 (org.eclipse.platform.feature.group 4.23.0.v20220308-0722) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:03:16.589
+!MESSAGE Add request for Urban Simulation Workbench 0.1.0.202204161702 (net.urbanworkbench.uw.product 0.1.0.202204161702) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:03:16.589
+!MESSAGE Add request for Java implementation of Git 6.1.0.202203080745-r (org.eclipse.jgit.feature.group 6.1.0.202203080745-r) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:03:16.589
+!MESSAGE Add request for UW Feature 0.1.0.202204161702 (net.urbanworkbench.uw.feature.feature.group 0.1.0.202204161702) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:03:16.589
+!MESSAGE Add request for Git integration for Eclipse 6.1.0.202203080745-r (org.eclipse.egit.feature.group 6.1.0.202203080745-r) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:03:16.589
+!MESSAGE Add request for JustJ Adoptium OpenJDK Hotspot JRE Complete Stripped 17.0.2.v20220201-1208 (org.eclipse.justj.openjdk.hotspot.jre.full.stripped.feature.group 17.0.2.v20220201-1208) is satisfiable
+!SESSION 2022-04-16 19:13:52.148 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=de_DE
+Framework arguments:  -eclipse.keyring /var/folders/yt/grhvcpt161l_c5pqj31f1ssr0000gp/T/tycho3336443941184618205secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/yt/grhvcpt161l_c5pqj31f1ssr0000gp/T/tycho3336443941184618205secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2022-04-16 19:13:52.148
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2022-04-16 19:17:07.782 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=de_DE
+Framework arguments:  -eclipse.keyring /var/folders/yt/grhvcpt161l_c5pqj31f1ssr0000gp/T/tycho4382385872443559529secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/yt/grhvcpt161l_c5pqj31f1ssr0000gp/T/tycho4382385872443559529secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2022-04-16 19:17:07.782
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-16 19:17:19.816
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,de.hftstuttgart.cityunits.model.edit,1.2.0.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-16 19:17:20.327
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,net.urbanworkbench.uw.ui,0.1.0.202204161717.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-16 19:17:20.609
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,net.urbanworkbench.uw.feature,0.1.0.202204161717.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-16 19:17:21.019
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,de.hftstuttgart.cityunits.model,1.2.0.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-16 19:17:23.875
+!MESSAGE No digest algorithm is available to verify download of binary,net.urbanworkbench.uw.product.executable.cocoa.macosx.x86_64,0.1.0.202204161717.
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-04-16 19:17:31.736
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:17:31.736
+!MESSAGE Add request for Urban Simulation Workbench 0.1.0.202204161717 (net.urbanworkbench.uw.product 0.1.0.202204161717) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:17:31.736
+!MESSAGE Add request for UW Feature 0.1.0.202204161717 (net.urbanworkbench.uw.feature.feature.group 0.1.0.202204161717) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:17:31.736
+!MESSAGE Add request for Eclipse Platform 4.23.0.v20220308-0722 (org.eclipse.platform.feature.group 4.23.0.v20220308-0722) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:17:31.736
+!MESSAGE Add request for Java implementation of Git 6.1.0.202203080745-r (org.eclipse.jgit.feature.group 6.1.0.202203080745-r) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:17:31.736
+!MESSAGE Add request for Git integration for Eclipse 6.1.0.202203080745-r (org.eclipse.egit.feature.group 6.1.0.202203080745-r) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:17:31.736
+!MESSAGE Add request for JustJ Adoptium OpenJDK Hotspot JRE Complete Stripped 17.0.2.v20220201-1208 (org.eclipse.justj.openjdk.hotspot.jre.full.stripped.feature.group 17.0.2.v20220201-1208) is satisfiable
+!SESSION 2022-04-16 19:33:36.272 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=de_DE
+Framework arguments:  -eclipse.keyring /var/folders/yt/grhvcpt161l_c5pqj31f1ssr0000gp/T/tycho11697552803488388128secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/yt/grhvcpt161l_c5pqj31f1ssr0000gp/T/tycho11697552803488388128secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2022-04-16 19:33:36.272
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-16 19:33:47.884
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,de.hftstuttgart.cityunits.model.edit,1.2.0.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-16 19:33:48.201
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,net.urbanworkbench.uw.feature,0.1.0.202204161733.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-16 19:33:49.035
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,net.urbanworkbench.uw.ui,0.1.0.202204161733.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-16 19:33:49.067
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,de.hftstuttgart.cityunits.model,1.2.0.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-16 19:33:50.916
+!MESSAGE No digest algorithm is available to verify download of binary,net.urbanworkbench.uw.product.executable.cocoa.macosx.x86_64,0.1.0.202204161733.
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-04-16 19:33:59.004
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:33:59.004
+!MESSAGE Add request for Urban Simulation Workbench 0.1.0.202204161733 (net.urbanworkbench.uw.product 0.1.0.202204161733) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:33:59.004
+!MESSAGE Add request for UW Feature 0.1.0.202204161733 (net.urbanworkbench.uw.feature.feature.group 0.1.0.202204161733) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:33:59.004
+!MESSAGE Add request for Eclipse Platform 4.23.0.v20220308-0722 (org.eclipse.platform.feature.group 4.23.0.v20220308-0722) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:33:59.004
+!MESSAGE Add request for Java implementation of Git 6.1.0.202203080745-r (org.eclipse.jgit.feature.group 6.1.0.202203080745-r) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:33:59.004
+!MESSAGE Add request for Git integration for Eclipse 6.1.0.202203080745-r (org.eclipse.egit.feature.group 6.1.0.202203080745-r) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:33:59.004
+!MESSAGE Add request for JustJ Adoptium OpenJDK Hotspot JRE Complete Stripped 17.0.2.v20220201-1208 (org.eclipse.justj.openjdk.hotspot.jre.full.stripped.feature.group 17.0.2.v20220201-1208) is satisfiable
+!SESSION 2022-04-16 19:45:22.532 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=de_DE
+Framework arguments:  -eclipse.keyring /var/folders/yt/grhvcpt161l_c5pqj31f1ssr0000gp/T/tycho12563969392678842889secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/yt/grhvcpt161l_c5pqj31f1ssr0000gp/T/tycho12563969392678842889secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2022-04-16 19:45:22.532
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2022-04-16 19:48:05.652 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=de_DE
+Framework arguments:  -eclipse.keyring /var/folders/yt/grhvcpt161l_c5pqj31f1ssr0000gp/T/tycho6700299830330706279secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/yt/grhvcpt161l_c5pqj31f1ssr0000gp/T/tycho6700299830330706279secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2022-04-16 19:48:05.652
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2022-04-16 19:48:47.841 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=de_DE
+Framework arguments:  -eclipse.keyring /var/folders/yt/grhvcpt161l_c5pqj31f1ssr0000gp/T/tycho13697994462845740240secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/yt/grhvcpt161l_c5pqj31f1ssr0000gp/T/tycho13697994462845740240secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2022-04-16 19:48:47.841
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-16 19:49:00.830
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,net.urbanworkbench.uw.feature,0.1.0.202204161748.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-16 19:49:01.628
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,de.hftstuttgart.cityunits.model,1.2.0.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-16 19:49:01.701
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,de.hftstuttgart.cityunits.feature,1.2.0.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-16 19:49:03.543
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,de.hftstuttgart.cityunits.model.edit,1.2.0.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-16 19:49:04.780
+!MESSAGE No digest algorithm is available to verify download of binary,net.urbanworkbench.uw.product.executable.cocoa.macosx.x86_64,0.1.0.202204161748.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-16 19:49:05.074
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,net.urbanworkbench.uw.ui,0.1.0.202204161748.
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-04-16 19:49:17.050
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:49:17.050
+!MESSAGE Add request for Eclipse Platform 4.23.0.v20220308-0722 (org.eclipse.platform.feature.group 4.23.0.v20220308-0722) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:49:17.050
+!MESSAGE Add request for Java implementation of Git 6.1.0.202203080745-r (org.eclipse.jgit.feature.group 6.1.0.202203080745-r) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:49:17.050
+!MESSAGE Add request for Git integration for Eclipse 6.1.0.202203080745-r (org.eclipse.egit.feature.group 6.1.0.202203080745-r) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:49:17.050
+!MESSAGE Add request for Urban Simulation Workbench 0.1.0.202204161748 (net.urbanworkbench.uw.product 0.1.0.202204161748) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:49:17.050
+!MESSAGE Add request for JustJ Adoptium OpenJDK Hotspot JRE Complete Stripped 17.0.2.v20220201-1208 (org.eclipse.justj.openjdk.hotspot.jre.full.stripped.feature.group 17.0.2.v20220201-1208) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:49:17.050
+!MESSAGE Add request for UW Feature 0.1.0.202204161748 (net.urbanworkbench.uw.feature.feature.group 0.1.0.202204161748) is satisfiable
+!SESSION 2022-04-16 19:52:53.314 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=de_DE
+Framework arguments:  -eclipse.keyring /var/folders/yt/grhvcpt161l_c5pqj31f1ssr0000gp/T/tycho8043609629866025362secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/yt/grhvcpt161l_c5pqj31f1ssr0000gp/T/tycho8043609629866025362secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2022-04-16 19:52:53.314
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-16 19:53:04.957
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,net.urbanworkbench.uw.feature,0.1.0.202204161752.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-16 19:53:05.687
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,de.hftstuttgart.cityunits.model,1.2.0.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-16 19:53:05.766
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,de.hftstuttgart.cityunits.feature,1.2.0.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-16 19:53:07.591
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,de.hftstuttgart.cityunits.model.edit,1.2.0.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-16 19:53:10.531
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,net.urbanworkbench.uw.ui,0.1.0.202204161752.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-16 19:53:12.494
+!MESSAGE No digest algorithm is available to verify download of binary,net.urbanworkbench.uw.product.executable.cocoa.macosx.x86_64,0.1.0.202204161752.
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-04-16 19:53:20.814
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:53:20.814
+!MESSAGE Add request for Urban Simulation Workbench 0.1.0.202204161752 (net.urbanworkbench.uw.product 0.1.0.202204161752) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:53:20.814
+!MESSAGE Add request for UW Feature 0.1.0.202204161752 (net.urbanworkbench.uw.feature.feature.group 0.1.0.202204161752) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:53:20.814
+!MESSAGE Add request for Eclipse Platform 4.23.0.v20220308-0722 (org.eclipse.platform.feature.group 4.23.0.v20220308-0722) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:53:20.814
+!MESSAGE Add request for Java implementation of Git 6.1.0.202203080745-r (org.eclipse.jgit.feature.group 6.1.0.202203080745-r) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:53:20.814
+!MESSAGE Add request for Git integration for Eclipse 6.1.0.202203080745-r (org.eclipse.egit.feature.group 6.1.0.202203080745-r) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-16 19:53:20.814
+!MESSAGE Add request for JustJ Adoptium OpenJDK Hotspot JRE Complete Stripped 17.0.2.v20220201-1208 (org.eclipse.justj.openjdk.hotspot.jre.full.stripped.feature.group 17.0.2.v20220201-1208) is satisfiable
+!SESSION 2022-04-17 10:33:49.155 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=de_DE
+Framework arguments:  -eclipse.keyring /var/folders/yt/grhvcpt161l_c5pqj31f1ssr0000gp/T/tycho11144696240857367540secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/yt/grhvcpt161l_c5pqj31f1ssr0000gp/T/tycho11144696240857367540secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2022-04-17 10:33:49.155
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-17 10:34:01.120
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,de.hftstuttgart.cityunits.model.edit,1.2.0.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-17 10:34:01.922
+!MESSAGE No digest algorithm is available to verify download of binary,net.urbanworkbench.uw.product.executable.cocoa.macosx.x86_64,0.1.0.202204170833.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-17 10:34:02.460
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,de.hftstuttgart.cityunits.model,1.2.0.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-17 10:34:02.555
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,de.hftstuttgart.cityunits.feature,1.2.0.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-17 10:34:04.988
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,net.urbanworkbench.uw.feature,0.1.0.202204170833.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-17 10:34:06.949
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,net.urbanworkbench.uw.ui,0.1.0.202204170833.
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-04-17 10:34:13.744
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-17 10:34:13.744
+!MESSAGE Add request for UW Feature 0.1.0.202204170833 (net.urbanworkbench.uw.feature.feature.group 0.1.0.202204170833) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-17 10:34:13.744
+!MESSAGE Add request for Urban Simulation Workbench 0.1.0.202204170833 (net.urbanworkbench.uw.product 0.1.0.202204170833) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-17 10:34:13.744
+!MESSAGE Add request for Eclipse Platform 4.23.0.v20220308-0722 (org.eclipse.platform.feature.group 4.23.0.v20220308-0722) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-17 10:34:13.744
+!MESSAGE Add request for Java implementation of Git 6.1.0.202203080745-r (org.eclipse.jgit.feature.group 6.1.0.202203080745-r) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-17 10:34:13.744
+!MESSAGE Add request for Git integration for Eclipse 6.1.0.202203080745-r (org.eclipse.egit.feature.group 6.1.0.202203080745-r) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-17 10:34:13.744
+!MESSAGE Add request for JustJ Adoptium OpenJDK Hotspot JRE Complete Stripped 17.0.2.v20220201-1208 (org.eclipse.justj.openjdk.hotspot.jre.full.stripped.feature.group 17.0.2.v20220201-1208) is satisfiable
+!SESSION 2022-04-17 10:40:37.956 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=de_DE
+Framework arguments:  -eclipse.keyring /var/folders/yt/grhvcpt161l_c5pqj31f1ssr0000gp/T/tycho13447206853058526188secure_storage
+Command-line arguments:  -eclipse.keyring /var/folders/yt/grhvcpt161l_c5pqj31f1ssr0000gp/T/tycho13447206853058526188secure_storage
+
+!ENTRY org.eclipse.core.net 1 0 2022-04-17 10:40:37.956
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-17 10:40:50.344
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,de.hftstuttgart.cityunits.model,1.2.0.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-17 10:40:50.423
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,de.hftstuttgart.cityunits.feature,1.2.0.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-17 10:40:50.992
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,net.urbanworkbench.uw.feature,0.1.0.202204170840.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-17 10:40:51.684
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,net.urbanworkbench.uw.ui,0.1.0.202204170840.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-17 10:40:52.184
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,de.hftstuttgart.cityunits.model.edit,1.2.0.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-04-17 10:40:53.107
+!MESSAGE No digest algorithm is available to verify download of binary,net.urbanworkbench.uw.product.executable.cocoa.macosx.x86_64,0.1.0.202204170840.
+
+!ENTRY org.eclipse.equinox.p2.director 0 0 2022-04-17 10:41:05.370
+!MESSAGE Overall install request is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-17 10:41:05.370
+!MESSAGE Add request for Eclipse Platform 4.23.0.v20220308-0722 (org.eclipse.platform.feature.group 4.23.0.v20220308-0722) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-17 10:41:05.370
+!MESSAGE Add request for Java implementation of Git 6.1.0.202203080745-r (org.eclipse.jgit.feature.group 6.1.0.202203080745-r) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-17 10:41:05.370
+!MESSAGE Add request for UW Feature 0.1.0.202204170840 (net.urbanworkbench.uw.feature.feature.group 0.1.0.202204170840) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-17 10:41:05.370
+!MESSAGE Add request for Urban Simulation Workbench 0.1.0.202204170840 (net.urbanworkbench.uw.product 0.1.0.202204170840) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-17 10:41:05.370
+!MESSAGE Add request for Git integration for Eclipse 6.1.0.202203080745-r (org.eclipse.egit.feature.group 6.1.0.202203080745-r) is satisfiable
+!SUBENTRY 1 org.eclipse.equinox.p2.director 0 0 2022-04-17 10:41:05.370
+!MESSAGE Add request for JustJ Adoptium OpenJDK Hotspot JRE Complete Stripped 17.0.2.v20220201-1208 (org.eclipse.justj.openjdk.hotspot.jre.full.stripped.feature.group 17.0.2.v20220201-1208) is satisfiable
