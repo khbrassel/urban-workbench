@@ -23,7 +23,7 @@
       <import feature="org.eclipse.sirius.properties.feature" version="7.0.0.202202231547"/>
       <import feature="org.eclipse.sirius.runtime" version="7.0.0.202202231547"/>
       <import feature="org.eclipse.sirius.runtime.ide.ui" version="7.0.0.202202231547"/>
-      <import feature="org.eclipse.sirius.runtime.aql" version="7.0.0.202202231547" match="perfect"/>
+      <import feature="org.eclipse.sirius.runtime.aql" version="7.0.0.202202231547"/>
    </requires>
 
    <plugin
