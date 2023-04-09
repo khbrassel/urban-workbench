@@ -3,15 +3,14 @@
 <plugin>
 
    <extension
-         id="USWProduct"
-         name="USW"
+         id="product"
          point="org.eclipse.core.runtime.products">
       <product
-            name="Urban Simulation Workbench"
+            name="Urban Workbench"
             application="org.eclipse.ui.ide.workbench">
          <property
                name="appName"
-               value="Urban Simulation Workbench">
+               value="Urban Workbench">
          </property>
          <property
                name="aboutImage"

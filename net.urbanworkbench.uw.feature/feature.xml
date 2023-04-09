@@ -6,7 +6,7 @@
       provider-name="Kai-Holger Brassel">
 
    <description url="http://www.example.com/description">
-      Feature for urban modeling workbench UI core	s
+      Feature for urban modeling workbench UI core
    </description>
 
    <copyright url="http://www.example.com/copyright">
@@ -20,10 +20,11 @@
    <requires>
       <import feature="de.hftstuttgart.cityunits.feature" version="1.2.0" match="greaterOrEqual"/>
       <import feature="org.eclipse.gmf.runtime.notation" version="1.13.0.202004160913"/>
-      <import feature="org.eclipse.sirius.properties.feature" version="7.0.0.202202231547"/>
-      <import feature="org.eclipse.sirius.runtime" version="7.0.0.202202231547"/>
-      <import feature="org.eclipse.sirius.runtime.ide.ui" version="7.0.0.202202231547"/>
-      <import feature="org.eclipse.sirius.runtime.aql" version="7.0.0.202202231547"/>
+      <import feature="org.eclipse.sirius.properties.feature" version="7.0.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.sirius.runtime" version="7.0.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.sirius.runtime.ide.ui" version="7.0.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.sirius.runtime.aql" version="7.0.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.egit" version="6.3.0.202209071007-r"/>
    </requires>
 
    <plugin
