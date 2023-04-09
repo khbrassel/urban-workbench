@@ -8,33 +8,44 @@
 	<description>Extendible workbench for integrating urban models</description>
 
 	<properties>
-		<tycho-version>3.0.0</tycho-version>
+		<tycho-version>3.0.4</tycho-version>
 	    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.eclipse.tycho</groupId>
-				<artifactId>tycho-maven-plugin</artifactId>
-				<version>${tycho-version}</version>
-				<configuration>
-					<source>17</source>
-					<target>17</target>
-				</configuration>
-				<extensions>true</extensions>
-			</plugin>
-		</plugins>
-
 		<pluginManagement>
 			<plugins>
+
+				<plugin>
+					<groupId>org.eclipse.tycho</groupId>
+					<artifactId>tycho-p2-director-plugin</artifactId>
+					<version>${tycho-version}</version>
+
+				</plugin>
+
+				<plugin>
+					<groupId>org.eclipse.tycho</groupId>
+					<artifactId>tycho-p2-repository-plugin</artifactId>
+					<version>${tycho-version}</version>
+					<configuration>
+						<includeAllDependencies>true</includeAllDependencies>
+					</configuration>
+				</plugin>
+
 				<plugin>
 					<groupId>org.eclipse.tycho</groupId>
 					<artifactId>target-platform-configuration</artifactId>
 					<version>${tycho-version}</version>
 					<configuration>
-						<executionEnvironment>org.eclipse.justj.openjdk.hotspot.jre.full-17</executionEnvironment>
-
+						<!-- Deploy with embedded full JDK without debug infos (must match product and target) -->
+						<executionEnvironment>org.eclipse.justj.openjdk.hotspot.jre.full.stripped-17</executionEnvironment>
+						<target>
+							<artifact>
+								<groupId>net.urbanworkbench</groupId>
+								<artifactId>net.urbanworkbench.uw.target</artifactId>
+								<version>0.1.0-SNAPSHOT</version>
+							</artifact>
+						</target>
 						<environments>
 							<environment>
 								<os>linux</os>
@@ -55,100 +66,28 @@
 					</configuration>
 				</plugin>
 
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-toolchains-plugin</artifactId> 
-						<version>3.1.0</version>
-						<executions>
-							<execution>
-								<goals>
-									<goal>toolchain</goal> 
-								</goals>
-							</execution>
-						</executions>
-						<configuration>
-							<toolchains>
-								<jdk>
-									<version>17</version>
-								</jdk>
-							</toolchains>
-						</configuration>
-				</plugin>
-
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.10.1</version>
-					<configuration>
-						<source>17</source>
-						<target>17</target>
-					</configuration>
-				</plugin>
-
-				<plugin>
-					<groupId>org.eclipse.tycho</groupId>
-					<artifactId>tycho-p2-repository-plugin</artifactId>
-					<version>${tycho-version}</version>
-					<configuration>
-						<includeAllDependencies>true</includeAllDependencies>
-					</configuration>
-				</plugin>
-
-				<plugin>
-					<groupId>org.eclipse.tycho</groupId>
-					<artifactId>tycho-p2-director-plugin</artifactId>
-					<version>${tycho-version}</version>
-					<configuration>
-						<formats>
-							<win32>zip</win32>
-							<linux>tar.gz</linux>
-							<macosx>zip</macosx>
-						</formats>
-					</configuration>
-					<executions>
-						<execution>
-							<id>materialize-products</id>
-							<goals>
-								<goal>materialize-products</goal>
-							</goals>
-						</execution>
-						<execution>
-							<id>archive-products</id>
-							<goals>
-								<goal>archive-products</goal>
-							</goals>
-						</execution>
-					</executions>
-				</plugin>
 			</plugins>
+
 		</pluginManagement>
+
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-maven-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<configuration>
+					<source>17</source>
+					<target>17</target>
+				</configuration>
+				<extensions>true</extensions>
+			</plugin>
+
+		</plugins>
 
 	</build>
 
-	<repositories>
-		<repository>
-			<id>justj</id>
-			<url>https://download.eclipse.org/justj/jres/17/updates/release/17.0.4</url>
-			<layout>p2</layout>
-		</repository>
-		<repository>
-			<id>eclipse-2022-09</id>
-			<url>https://download.eclipse.org/releases/2022-09</url>
-			<layout>p2</layout>
-		</repository>
-		<repository>
-			<id>Indriya</id>
-			<url>https://transfer.hft-stuttgart.de/pages/neqmodplus/indriya-p2/repository</url>
-			<layout>p2</layout>
-		</repository>
-		<repository>
-			<id>CityUnits</id>
-			<url>https://transfer.hft-stuttgart.de/pages/neqmodplus/de.hft-stuttgart.cityunits/p2repo</url>
-			<layout>p2</layout>
-		</repository>
-	</repositories>
-
 	<modules>
+		<module>net.urbanworkbench.uw.target</module>
 		<module>net.urbanworkbench.uw.ui</module>
 		<module>net.urbanworkbench.uw.feature</module>
 		<module>net.urbanworkbench.uw.product</module>
