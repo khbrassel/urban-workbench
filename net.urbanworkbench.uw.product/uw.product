@@ -22,7 +22,7 @@
 
    <splash
       location="net.urbanworkbench.uw.ui" />
-   <launcher name="UW">
+   <launcher name="Urban Workbench">
       <macosx icon="/net.urbanworkbench.uw.product/UW.icns"/>
       <win useIco="false">
          <bmp/>
@@ -76,6 +76,8 @@
       <feature id="org.eclipse.jdt" installMode="root"/>
       <feature id="org.eclipse.jgit.http.apache" installMode="root"/>
       <feature id="org.eclipse.jgit.gpg.bc" installMode="root"/>
+      <feature id="ca.concordia.cerc.meteocatalog.feature" installMode="root"/>
+      <feature id="ca.concordia.cerc.urbansimworkflow.feature" installMode="root"/>
    </features>
 
    <configurations>
