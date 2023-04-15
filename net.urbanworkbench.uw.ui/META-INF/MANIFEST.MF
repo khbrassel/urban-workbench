@@ -3,6 +3,20 @@ Bundle-ManifestVersion: 2
 Bundle-Name: Extendible workbench for urban models
 Bundle-SymbolicName: net.urbanworkbench.uw.ui;singleton:=true
 Bundle-Version: 0.1.0.qualifier
+Require-Bundle: org.eclipse.equinox.registry,
+ org.eclipse.jface,
+ org.eclipse.sirius.ui,
+ org.eclipse.ui.workbench,
+ org.eclipse.osgi,
+ org.eclipse.core.filesystem,
+ org.eclipse.core.resources,
+ org.eclipse.ui.ide,
+ javax.inject,
+ org.eclipse.e4.ui.workbench,
+ org.eclipse.e4.ui.model.workbench,
+ org.eclipse.ui,
+ org.eclipse.e4.ui.di,
+ org.eclipse.e4.ui.services
 Bundle-Vendor: Kai-Holger Brassel
 Automatic-Module-Name: net.urbanworkbench.uw.ui
 Bundle-RequiredExecutionEnvironment: JavaSE-17
