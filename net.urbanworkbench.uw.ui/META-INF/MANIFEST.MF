@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Extendible workbench for integrating urban models
+Bundle-Name: Extendible workbench for urban models
 Bundle-SymbolicName: net.urbanworkbench.uw.ui;singleton:=true
 Bundle-Version: 0.1.0.qualifier
 Bundle-Vendor: Kai-Holger Brassel
