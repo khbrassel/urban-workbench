@@ -19,23 +19,6 @@
 			<unit id="org.eclipse.fx.runtime.min.feature.feature.group" version="3.9.0.202210162353"/>
 			<unit id="org.eclipse.fx.target.rcp4.feature.feature.group" version="3.9.0.202210170008"/>
 		</location>
-		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-			<repository location="http://download.eclipse.org/releases/2022-09"/>
-			<unit id="org.eclipse.sdk.feature.group" version="4.25.0.v20220831-1800"/>
-			<unit id="org.eclipse.sirius.interpreter.feature.feature.group" version="7.0.4.202208240753"/>
-			<unit id="org.eclipse.sirius.properties.feature.feature.group" version="7.0.4.202208240753"/>
-			<unit id="org.eclipse.sirius.specifier.feature.group" version="7.0.4.202208240753"/>
-			<unit id="org.eclipse.sirius.specifier.properties.feature.feature.group" version="7.0.4.202208240753"/>
-			<unit id="org.eclipse.emf.common.ui.feature.group" version="2.19.0.v20220226-1304"/>
-			<unit id="org.eclipse.emf.feature.group" version="2.31.0.v20220817-1401"/>
-			<unit id="org.eclipse.acceleo.feature.group" version="3.7.11.202102190929"/>
-			<unit id="org.eclipse.emf.eef.codegen.ecore-feature.feature.group" version="1.5.1.201601141612"/>
-			<unit id="org.eclipse.equinox.sdk.feature.group" version="3.23.500.v20220826-1025"/>
-			<unit id="org.eclipse.emf.ecoretools.design.feature.group" version="3.4.0.202201202026"/>
-			<unit id="org.eclipse.sirius.runtime.aql.feature.group" version="7.0.4.202208240753"/>
-			<unit id="org.eclipse.sirius.runtime.feature.group" version="7.0.4.202208240753"/>
-			<unit id="org.eclipse.egit.feature.group" version="6.3.0.202209071007-r"/>
-		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 			<repository location="https://download.eclipse.org/tools/orbit/downloads/drops/R20210602031627/repository"/>
 			<unit id="org.antlr.runtime" version="4.7.2.v20200218-0804"/>
@@ -58,7 +41,19 @@
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 			<repository location="https://khbrassel.de/urbanworkbench/p2/workfloweditor/"/>
-			<unit id="ca.concordia.cerc.urbansimworkflow.feature.feature.group" version="1.0.2"/>
+			<unit id="ca.concordia.cerc.urbansimworkflow.feature.feature.group" version="1.0.3"/>
+		</location>
+		<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+			<repository location="http://download.eclipse.org/releases/2023-03"/>
+			<unit id="org.eclipse.acceleo.feature.group" version="3.7.12.202211151354"/>
+			<unit id="org.eclipse.egit.feature.group" version="6.5.0.202303070854-r"/>
+			<unit id="org.eclipse.emf.ecoretools.sdk.feature.group" version="3.4.0.202201202026"/>
+			<unit id="org.eclipse.emf.sdk.feature.group" version="2.33.0.v20230226-0921"/>
+			<unit id="org.eclipse.equinox.sdk.feature.group" version="3.23.700.v20230220-1352"/>
+			<unit id="org.eclipse.sdk.feature.group" version="4.27.0.v20230302-0300"/>
+			<unit id="org.eclipse.sirius.properties.feature.feature.group" version="7.0.7.202301170754"/>
+			<unit id="org.eclipse.sirius.specifier.feature.group" version="7.0.7.202301170754"/>
+			<unit id="org.eclipse.sirius.specifier.properties.feature.feature.group" version="7.0.7.202301170754"/>
 		</location>
 	</locations>
 	<targetJRE path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17"/>
