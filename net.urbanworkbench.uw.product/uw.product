@@ -14,7 +14,7 @@
    </configIni>
 
    <launcherArgs>
-      <programArgs>-perspective org.eclipse.sirius.ui.tools.perspective.modeling
+      <programArgs>-data @user.home/UrbanWorkbenchWorkspace -perspective org.eclipse.sirius.ui.tools.perspective.modeling
       </programArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
       </vmArgsMac>
@@ -30,7 +30,6 @@
          <bmp/>
       </win>
    </launcher>
-
 
    <vm>
       <macos include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17</macos>
