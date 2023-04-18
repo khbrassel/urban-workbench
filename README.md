@@ -14,7 +14,7 @@ Once installed, you can add more modules to the Workbench, e.g.:
 * [PyDev Python programming environment](https://www.pydev.org)
 * [Java GIS Toolkit GeoTools](https://www.geotools.org)
 
-####Installation
+### Installation
 
 Download the application by clicking a link below that suits your operating system (64 bit Intel processor architecture only - AArch64 architecture for macOS and Linux are available on demand):
 
@@ -35,7 +35,7 @@ For macOS:
 
 When startet for the first time, the application will automatically create a directory named `UrbanWorkbenchWorkspace` in the users home directory. If you want to uninstall the app, please delete this directory as well as the extracted application (macOS) or application directory (Windows and Linux).
 
-####First steps with the Urban Workflow Editor PoC
+### First steps with the Urban Workflow Editor PoC
 
 1. Once the workbench has started, find these buttons in the top toolbar: ![qwer](UWbuttons.png)  
 1. Click the green magic wand to to provide a name for a new project, e.g. `Test`
