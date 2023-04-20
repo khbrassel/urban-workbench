@@ -79,6 +79,7 @@
       <feature id="org.eclipse.jgit.http.apache" installMode="root"/>
       <feature id="org.eclipse.jgit.gpg.bc" installMode="root"/>
       <feature id="ca.concordia.cerc.meteocatalog.feature" installMode="root"/>
+      <feature id="ca.concordia.usw.energycatalog.feature" installMode="root"/>
       <feature id="ca.concordia.cerc.urbansimworkflow.feature" installMode="root"/>
    </features>
 
